@@ -17,7 +17,7 @@
     </style>
 </head>
 
-<body class="">
+<body class="h-screen w-screen overflow-hidden">
     <main class="h-screen md:flex md:justify-center md:m-10">
 
         <div class="flex-col">
@@ -100,7 +100,7 @@
                 <div class="bg-white relative overflow-y-auto h-[86.7vh] md:h-[700px] md:w-[430px]">
                     <!-- chat -->
                     <span
-                        class="rounded-full bg-emerald-800 text-white absolute bottom-3 right-2 hover:cursor-pointer hover:bg-emerald-950">
+                        class="rounded-full bg-emerald-800 text-white fixed md:absolute bottom-3 right-2 hover:cursor-pointer hover:bg-emerald-950">
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
                             class="fill-current m-3">
                             <g fill="none" fill-rule="evenodd">
@@ -176,9 +176,9 @@
                     </div>
                     <!-- chat footer -->
                     <div class="h-[0.1px] bg-gray-300 w-full"></div>
-                    <div class="text-center m-2">
-                        <p class="text-[12px]"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
-                                viewBox="0 0 24 24" class="inline">
+                    <div class="text-center mb-32">
+                        <p class="text-[12px] mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                viewBox="0 0 24 24" class="inline ">
                                 <path fill="currentColor"
                                     d="M6 22q-.825 0-1.413-.588T4 20V10q0-.825.588-1.413T6 8h1V6q0-2.075 1.463-3.538T12 1q2.075 0 3.538 1.463T17 6v2h1q.825 0 1.413.588T20 10v10q0 .825-.588 1.413T18 22H6Zm6-5q.825 0 1.413-.588T14 15q0-.825-.588-1.413T12 13q-.825 0-1.413.588T10 15q0 .825.588 1.413T12 17ZM9 8h6V6q0-1.25-.875-2.125T12 3q-1.25 0-2.125.875T9 6v2Z" />
                             </svg> Your personal messages are <span class="text-emerald-700">end-to-end encrypted</span>
