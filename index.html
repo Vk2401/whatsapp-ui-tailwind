@@ -18,14 +18,14 @@
 </head>
 
 <body class="">
-    <main class="flex justify-center h-screen items-center">
+    <main class="h-screen md:flex md:justify-center md:m-10">
 
         <div class="flex-col">
 
-            <div>
+            <div class=" ">
                 <!-- Header -->
 
-                <div class="bg-emerald-800">
+                <div class="bg-emerald-800 h-[14.3vh] md:h-full">
                     <div class="upper-nav bg-emerald-800 flex justify-between items-center px-4 py-[0.20rem] ">
                         <div class=" text-white p-4">
                             <a href="./index.html">
@@ -36,8 +36,7 @@
                             <a href="https://github.com/Vk2401/whatsapp-ui-tailwind" class="hover:text-blue-400"
                                 target="_blank" rel="noopener noreferrer" title="Source code Repo">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
-                                    class="fill-current 
-">
+                                    class="fill-current">
                                     <path fill="currentColor" fill-rule="evenodd"
                                         d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974c0 4.406 2.857 8.145 6.821 9.465c.499.09.679-.217.679-.481c0-.237-.008-.865-.011-1.696c-2.775.602-3.361-1.338-3.361-1.338c-.452-1.152-1.107-1.459-1.107-1.459c-.905-.619.069-.605.069-.605c1.002.07 1.527 1.028 1.527 1.028c.89 1.524 2.336 1.084 2.902.829c.091-.645.351-1.085.635-1.334c-2.214-.251-4.542-1.107-4.542-4.93c0-1.087.389-1.979 1.024-2.675c-.101-.253-.446-1.268.099-2.64c0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336a9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021c.545 1.372.203 2.387.099 2.64c.64.696 1.024 1.587 1.024 2.675c0 3.833-2.33 4.675-4.552 4.922c.355.308.675.916.675 1.846c0 1.334-.012 2.41-.012 2.737c0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974C22 6.465 17.535 2 12.026 2z"
                                         clip-rule="evenodd" />
@@ -67,28 +66,34 @@
                             </div>
 
                             <div class="flex items-center flex-1 justify-between w-full px-2">
-<a href="./index.html"  rel="noopener noreferrer">                                <div
-    class="uppercase font-medium text-sm flex items-center space-x-2 relative hover:cursor-pointer">
-    <span class="">Chats</span>
-    <span
-        class="bg-white text-emerald-700 p-0.5 rounded-full w-5 h-5 text-xs flex items-center justify-center">
-        3</span>
-    <div class="absolute right-1 top-8 w-full h-1 bg-white"></div>
-</div></a>
-<a href="./status.html" rel="noopener noreferrer">                                <div
-    class="uppercase font-medium text-sm flex items-center space-x-2 hover:cursor-pointer">
-    <span class="text-gray-400">Status</span>
-</div></a>
-<a href="./calls.html" rel="noopener noreferrer">                                <div
-    class="uppercase font-medium text-sm flex items-center space-x-2 hover:cursor-pointer">
-    <span class="text-gray-400">Calls</span>
-</div></a>
+                                <a href="./index.html" rel="noopener noreferrer">
+                                    <div
+                                        class="uppercase font-medium text-sm flex items-center space-x-2 relative hover:cursor-pointer">
+                                        <span class="">Chats</span>
+                                        <span
+                                            class="bg-white text-emerald-700 p-0.5 rounded-full w-5 h-5 text-xs flex items-center justify-center">
+                                            3</span>
+                                        <div class="absolute right-1 top-8 w-full h-1 bg-white"></div>
+                                    </div>
+                                </a>
+                                <a href="./status.html" rel="noopener noreferrer">
+                                    <div
+                                        class="uppercase font-medium text-sm flex items-center space-x-2 hover:cursor-pointer">
+                                        <span class="text-gray-400">Status</span>
+                                    </div>
+                                </a>
+                                <a href="./calls.html" rel="noopener noreferrer">
+                                    <div
+                                        class="uppercase font-medium text-sm flex items-center space-x-2 hover:cursor-pointer">
+                                        <span class="text-gray-400">Calls</span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Chat List -->
-                <div class="bg-white overflow-y-auto h-[600px] relative  w-[430px] ">
+                <div class="bg-white relative overflow-y-auto h-[86.7vh] md:h-[700px] md:w-[430px]">
                     <!-- float chat -->
                     <span
                         class="rounded-full bg-emerald-800 text-white absolute bottom-3 right-2 hover:cursor-pointer hover:bg-emerald-950">
@@ -104,18 +109,19 @@
                         <div>
                             <div class="flex items-center pb-1">
                                 <div class="rounded-full p-1"><img
-                                        src="https://avatars.githubusercontent.com/u/95954567?v=4"
-                                        alt="Vasanth dp" class="w-16 h-auto rounded-full "></div>
+                                        src="https://avatars.githubusercontent.com/u/95954567?v=4" alt="Vasanth dp"
+                                        class="w-16 h-auto rounded-full "></div>
                                 <div class="ml-4 flex justify-between w-full">
                                     <div>
                                         <h2 class="text-lg font-semibold">Vasan (You)</h2>
-                                        <p class="text-gray-500"><span class="text-sky-500"><svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                            height="18" viewBox="0 0 16 16" class="inline fill-current">
-                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" stroke-width="1.5"
-                                                d="m1.75 9.75l2.5 2.5m3.5-4l2.5-2.5m-4.5 4l2.5 2.5l6-6.5" />
-                                        </svg></span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-                                                viewBox="0 0 24 24" class="inline">
+                                        <p class="text-gray-500"><span class="text-sky-500"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                    viewBox="0 0 16 16" class="inline fill-current">
+                                                    <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="1.5"
+                                                        d="m1.75 9.75l2.5 2.5m3.5-4l2.5-2.5m-4.5 4l2.5 2.5l6-6.5" />
+                                                </svg></span><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                height="18" viewBox="0 0 24 24" class="inline">
                                                 <path fill="currentColor"
                                                     d="M5 21q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.588 1.413T19 21H5Zm1-4h12l-3.75-5l-3 4L9 13l-3 4Z" />
                                             </svg>Photo</p>
