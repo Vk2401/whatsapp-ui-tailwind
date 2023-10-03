@@ -699,16 +699,12 @@ video {
   margin: 0.25rem;
 }
 
-.m-2 {
-  margin: 0.5rem;
-}
-
 .m-3 {
   margin: 0.75rem;
 }
 
-.m-96 {
-  margin: 24rem;
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .ml-4 {
@@ -717,30 +713,6 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mb-96 {
-  margin-bottom: 24rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mb-60 {
-  margin-bottom: 15rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.mb-32 {
-  margin-bottom: 8rem;
 }
 
 .box-border {
@@ -856,10 +828,6 @@ video {
 
 .h-\[0\.1px\] {
   height: 0.1px;
-}
-
-.h-\[14\.3vh\] {
-  height: 14.3vh;
 }
 
 .h-\[86\.7vh\] {
@@ -1888,6 +1856,22 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-hero-pattern {
+  background-image: url('https://docegeracao.com.br/wp-content/uploads/2019/06/bg-whatsapp.jpg');
+}
+
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'https\:\/\/docegeracao\.com\.br\/wp-content\/uploads\/2019\/06\/bg-whatsapp\.jpg\'\)\] {
+  background-image: url('https://docegeracao.com.br/wp-content/uploads/2019/06/bg-whatsapp.jpg');
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2696,16 +2680,8 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:fixed {
-    position: fixed;
-  }
-
   .md\:absolute {
     position: absolute;
-  }
-
-  .md\:sticky {
-    position: sticky;
   }
 
   .md\:m-10 {
@@ -2722,10 +2698,6 @@ video {
 
   .md\:h-\[700px\] {
     height: 700px;
-  }
-
-  .md\:h-full {
-    height: 100%;
   }
 
   .md\:w-\[430px\] {
